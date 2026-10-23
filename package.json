@@ -1,0 +1,21 @@
+{
+  "name": "google-flow-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server allowing AI coding agents to generate videos and images using Google Flow via authenticated real Chrome session.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "google-flow-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "playwright-core": "^1.51.0",
+    "ws": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

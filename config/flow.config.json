@@ -1,0 +1,20 @@
+{
+  "flowUrl": "https://labs.google/fx/tools/flow",
+  "cdpPort": 9224,
+  "chromeUserDataDir": "C:\\Users\\hashe\\.google-flow-profile",
+  "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "downloadsDir": "C:\\Users\\hashe\\.gemini\\antigravity\\scratch\\google-flow-mcp\\downloads",
+  "timeouts": {
+    "connectionMs": 25000,
+    "imageGenMs": 90000,
+    "videoGenMs": 240000,
+    "actionDelayMs": 600
+  },
+  "defaultSettings": {
+    "imageModel": "Nano Banana 2",
+    "videoModel": "Veo 2",
+    "imageRatio": "16:9",
+    "videoRatio": "16:9",
+    "videoDuration": "4s"
+  }
+}
